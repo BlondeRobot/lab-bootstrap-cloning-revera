@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset/reset.css">
+    <link rel="stylesheet" href="./styles/base/general.css">
+    <link rel="stylesheet" href="./styles/components/projects.css">
+    <link rel="stylesheet" href="./styles/components/articles.css">
+    <link rel="stylesheet" href="./styles/layout/header_divs.css">
+    <link rel="stylesheet" href="./styles/layout/footer_uls.css">
+    <link rel="stylesheet" href="./styles/layout/body.css">
     <title>Revera Clone</title>
 </head>
 <body>
-    <nav>
-        <div><p>REVERA</p></div>
-        <div>
-            <ul>
-                <li>Home</li>
+    <nav class="nav--content">
+        <div class="nav__p__txt" class="nav__p-w"><p>REVERA</p></div>
+        <div class="nav__ul--w">
+            <ul class="nav__ul">
+                <li class="ul__first_child--color">Home</li>
                 <li>About</li>
                 <li>Sample page</li>
                 <li>Portfolio</li>
@@ -22,27 +29,27 @@
         </div>
     </nav>
     <header>
-        <section>
-            <img src="./starter-code/img/project-2.jpg"/>
+        <section class="header__section__backgroundimg">
+            <!-- <img src="./starter-code/img/project-2.jpg"/> -->
             <h1>Molestiae qui modi reiciendis molestias soluta incidunt dolor dicta vero?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, natus, earum temporibus saepe nemo laborum alias fugiat adipisci magni illo,
                 voluptatibus placeat! Obcaecati perspiciatis assumenda iusto expedita et? Distinctio, libero.</p>
             <button>Read more</button>
         <section>
             <div>
-                <i></i>
+                <img src="./starter-code/img/icon-1.svg"/>
                 <h3>Web design</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Harum, natus, earum temporibus saepe nemo laborum</p>   
             </div>
             <div>
-                <img/>
+                <img src="./starter-code/img/icon-2.svg"/>
                 <h3>Web development</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Harum, natus, earum temporibus saepe nemo laborum</p>   
             </div>
             <div>
-                <img/>
+                <img src="./starter-code/img/icon-3.svg"/>
                 <h3>User interface</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Harum, natus, earum temporibus saepe nemo laborum</p>   
@@ -55,41 +62,23 @@
             <h3>LATEST PROJECTS</h3>
             <h4>Few of the latest portfolio items</h4>
             <div>
-                <div>
-                    <img src="starter-code/img/project-1.jpg" />
+                <div class="project">
+                    <img class="project__img--16" src="starter-code/img/project-1.jpg" />
                     <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
-                    <article>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
-                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
-                    </article>
+                    <p>Harum, natus, earum temporibus saepe nemo</p>
                 </div>
-                <div>
-                    <img src="starter-code/img/project-2.jpg"/>
+                <div class="project">
+                    <img class="project__img--16" src="starter-code/img/project-2.jpg"/>
                     <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
-                    <article>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
-                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
-                    </article>
+                    <p>Harum, natus, earum temporibus saepe nemo</p>
                 </div>
-                <div>
-                    <img src="starter-code/img/project-3.jpg"/>
-                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
-                    <article>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
-                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
-                    </article>
+                <div class="project">
+                    <img class="project__img--16" src="starter-code/img/project-3.jpg"/>
+                    <p>Harum, natus, earum temporibus saepe nemo</p>
                 </div>
-                <div>
-                    <img src="starter-code/img/project-1.jpg"/>
-                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
-                    <article>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
-                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
-                    </article>
+                <div class="project">
+                    <img class="project__img--16" src="starter-code/img/project-1.jpg"/>
+                    <p>Harum, natus, earum temporibus saepe nemo</p>
                 </div>
             </div>
 
@@ -100,19 +89,40 @@
             <div>
                 <div>
                     <img src="./starter-code/img/slider-1.jpg" />
-                    <p>Harum, natus, earum temporibus saepe nemo</p>
+                    
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
+                    <article>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
+                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
+                    </article>
                 </div>
                 <div>
                     <img src="./starter-code/img/slider-2.jpg" />
-                    <p>Harum, natus, earum temporibus saepe nemo</p>
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
+                    <article>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
+                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
+                    </article>
                 </div>
                 <div>
                     <img src="./starter-code/img/slider-3.jpg" />
-                    <p>Harum, natus, earum temporibus saepe nemo</p>
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
+                    <article>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
+                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
+                    </article>
                 </div>
                 <div>
                     <img src="./starter-code/img/slider-4.jpg" />
-                    <p>Harum, natus, earum temporibus saepe nemo</p>
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <p>posted on <span>August 19, 2020</span> by <span>admin</span></p>
+                    <article>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugit non dolores deserunt unde nulla voluptas aliquam ex hic 
+                        fugiat doloribus veritatis commodi assumenda deleniti quaerat, neque a ipsum placeat.
+                    </article>
                 </div>
             </div>
             

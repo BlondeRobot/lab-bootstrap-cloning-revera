@@ -1,0 +1,45 @@
+.nav--content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+}
+
+.nav__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.nav__ul--w {
+    width: 35%;
+}
+
+.nav__p--w {
+    width: 40%;
+}
+
+.nav__p__txt {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.ul__first_child--color {
+    color: red
+}
+
+ul_child_color {
+    color: gray;
+}
+
+.header__section__backgroundimg {
+    background-image: url("../../starter-code/img/project-2.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header__section__backgroundimg--w
