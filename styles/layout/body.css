@@ -32,14 +32,108 @@
     color: red
 }
 
-ul_child_color {
+
+
+.header__section__backgroundimg {
+    background-image: url("../../starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 70vh;
+}
+
+.header__section__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+.header__section__h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.header__section__p {
+    text-align: center;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.header__button {
+    background-color: transparent;
+    border: 2px solid grey;
+    
+    width: 20%;
+    height: 2.5rem;
+    text-transform: uppercase;
     color: gray;
 }
 
-.header__section__backgroundimg {
-    background-image: url("../../starter-code/img/project-2.jpg");
-    background-repeat: no-repeat;
+.header__icons__background {
+    background-color: red;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    opacity: 75%;
+    height: 35vh;
 }
 
-header__section__backgroundimg--w
+main {
+    margin: 2rem 12%;
+}
+main h3 {
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+main h4 {
+    padding-bottom: 1rem;
+}
+
+.projectsArticlesContainer--layout {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    border-top: grey solid 1px;
+}
+
+footer {
+    background-color: rgb(58, 56, 56);
+    border-top: rgba(230, 96, 96, 1) solid 8px;
+}
+
+
+
+.footer__section--layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer__text_container {
+    margin: 1rem 12%;
+}
+
+.footer__bottom {
+    background-color:rgb(22,21,21);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 12%;
+    color: white;
+}

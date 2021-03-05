@@ -1,0 +1,20 @@
+.article__img--16 {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.article__h4 {
+    font-weight: bold;
+    color: black;
+}
+
+.article__p {
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.article__p__span {
+    color: red;
+    font-weight: bold;
+}
+

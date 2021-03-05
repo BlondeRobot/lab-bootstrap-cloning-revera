@@ -1,0 +1,20 @@
+.footer__div--layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 25%;
+}
+footer h4 {
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+footer li {
+    border-bottom: gray dotted 1px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
